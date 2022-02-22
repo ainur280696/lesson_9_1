@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Serif:regular,500,600,700,800,900&display=swap);
+body{
+    font-family: "Roboto+Serif";
+    max-width: 800px;
+    margin:0 auto;
+}
+.wrapper{
+    min-height: 100%;
+	overflow: hidden;
+    background-color: rgb(104, 134, 134);
+    border: 2px solid rgb(40, 53, 53);
+    padding: 30px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(40, 53, 53);
+}
+.start{
+    width: 100px;
+    height: 60px;
+    background-color: #136b1f;
+    text-align: center;
+    padding: 20px;
+    color:whitesmoke;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.line-1{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    visibility: hidden;
+}
+.start:hover + .line-1,
+.line-1:hover{
+    visibility: visible;
+}
+.line-2{
+    width: 736px;
+    height: 30px;
+    background-color: pink;
+    visibility: hidden;
+}
+.line-1:hover + .line-2,
+.line-2:hover{
+    visibility: visible;
+}
+.line-3{
+    width: 30px;
+    height: 50px;
+    background-color: purple;
+    visibility: hidden;
+    margin: 0 0 0 auto;
+}
+.line-2:hover + .line-3,
+.line-3:hover{
+    visibility: visible;
+}
+.line-4{
+    width: 381px;
+    height: 25px;
+    background-color: pink;
+    visibility: hidden;
+    margin: 0 0 0 auto;
+}
+.line-3:hover + .line-4,
+.line-4:hover{
+    visibility: visible;
+}
+.line-5{
+    width: 25px;
+    height: 40px;
+    background-color: purple;
+    visibility: hidden;
+    margin: 0 auto;
+}
+.line-4:hover + .line-5,
+.line-5:hover{
+    visibility: visible;
+}
+.line-6{
+    width: 51.8%;
+    height: 15px;
+    background-color: pink;
+    visibility: hidden;
+}
+.line-5:hover + .line-6,
+.line-6:hover{
+    visibility: visible;
+}
+.line-7{
+    width: 20px;
+    height: 50px;
+    background-color: purple;
+    visibility: hidden;
+}
+.line-6:hover + .line-7,
+.line-7:hover{
+    visibility: visible;
+}
+.line-8{
+    width: 736px;
+    height: 10px;
+    background-color: pink;
+    visibility: hidden;
+}
+.line-7:hover + .line-8,
+.line-8:hover{
+    visibility: visible;
+}
+.line-9{
+    width: 5px;
+    height: 50px;
+    background-color: purple;
+    margin: 0 0 0 auto;
+    visibility: hidden;
+}
+.line-8:hover + .line-9,
+.line-9:hover{
+    visibility: visible;
+}
+.image{
+    visibility: hidden;
+}
+.line-9:hover + .image,
+.image:hover{
+    visibility: visible;
+}
